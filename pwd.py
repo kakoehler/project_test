@@ -13,3 +13,6 @@ pwd = input('Passwort: ')
 if pwd == 'katha':                 # 1
     print('Passwort wurde erkannt.')   # 2
     print('Wilkommen!')                # 3
+else: 
+    print('Das war falsch!')
+    
