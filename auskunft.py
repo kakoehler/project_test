@@ -29,6 +29,9 @@ frage = input('Frage: ')
 if 'Wann' in frage:
     thema = 'zum Liefertermin'
     zuständig = 'Carla'
+elif 'zurück' in frage:
+    thema = 'zur Retoure'
+    zuständig = 'Heinz'
 elif 'Rechnung' in frage:
     thema = 'zur Rechnung'
     zuständig = 'Tom'
